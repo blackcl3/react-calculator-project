@@ -1,3 +1,5 @@
+import Calculator from '../components/Calculator';
+
 function Home() {
   return (
     <div
@@ -9,7 +11,8 @@ function Home() {
         margin: '0 auto',
       }}
     >
-      <h1>Welcome Home! </h1>
+      <h1>Welcome to CalculatR!</h1>
+      <Calculator />
     </div>
   );
 }
